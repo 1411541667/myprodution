@@ -3,3 +3,7 @@ dist/
 *.tsbuildinfo
 vite.config.js
 vite.config.d.ts
+
+# 私有文档：仅本地保留，不推送至远程仓库
+plan.md
+README-admin.md

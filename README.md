@@ -10,10 +10,8 @@ npm run dev
 ```
 
 - 游客页面：<http://127.0.0.1:5173/>
-- 私密管理页：<http://127.0.0.1:5173/studio>
-- 初始管理口令：`youzai2026`
 
-管理口令目前位于 `src/components/Admin.tsx` 的 `ADMIN_PASSWORD` 常量中。公开部署前应改为服务端登录鉴权，不要继续依赖前端口令。
+管理入口地址与口令属于私有运维信息，保存在本地的 `README-admin.md` 中，该文件已加入 `.gitignore`，不随仓库发布。
 
 ## 数据说明
 
